@@ -49,7 +49,7 @@ function cu_class_notes_menu() {
     'title callback' => 'cu_class_notes_archive_year_title',
     'title arguments' => array(5),
   );
-  // Class notes filteed by created date range and class year range
+  // Class notes filtered by created date range and class year range
   // classnotes/added/YYYY-MM-DD/YYYY-MM-DD/year/YYYY/YYYY
   $items['classnotes/added/%/%/year/%/%'] = array(
     'access callback' => TRUE,
